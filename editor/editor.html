@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>遇见--一个简单的个人小站</title>
+
+    <link href="editor.css" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap-2014-10-23-e2373d4a.min.css">
+    <link href="font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- icon -->
+<link rel="shortcut icon" type="image/x-icon" href="http://classfoo.com/static/favicon.ico">
+<link rel="apple-touch-icon" href="http://classfoo.com/static/apple-touch-icon-precomposed.png">
+
+
+
+<!-- Jquery -->
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<!-- bootstrap -->
+<script src="bootstrap/js/bootstrap-2014-10-23-140084e9.min.js"></script>
+
+<script src="js/global.js"></script>
+
+<script src="wysihtml5/main.js"></script>
+<script src="wysihtml5/classfoo-editor.js"></script>
+
+  </head>
+  <body class="body">
+    
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">导航条</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <svg class="title" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="90" height="50" viewBox="0 0 90 50">
+                <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAjCAMAAAAXIiwlAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAM1BMVEUAAAD+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v4AAACrZ5oqAAAAD3RSTlMAVWbuqojMmXfdMyIRRLu9Fip7AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAm9JREFUSMelVlmWhCAMBKIQZLv/bScLKKg9b5Z8+FoJlaSSgjbmNOvMfw3axkC7b635/U94W2sBoQ2Lx+8hsG/dbTJ5bw3Sq1suiJ/QLe3fcEd9o5dyC0G1ZbtJHI+v+EV21RY+QFAA2R8Dom8wZ3KU06dZgqDHwFus8n4IRw+3LZ0AHBBoArlRykxMekBUm69w07KTrerjt8ixaqLORvOAwKmqJcmjs7+NfiaTmtbzHQTOi5SHz9pV5IqNoZ7u5h2iHp2qNYSTVYaQR6H3YD5ANJ+0+NtwWNh0MPqAwct8KwSVSGuhU7V01mp2jguBPeXjA4QmHEcHXmZLZy/KoN8mUCECP49RaL1xntvd8AkRmYS9gQ5I5QHzNZ9Otg6VkmBtaFL2CnEwXxkGeGVStZ80FOTtVOrUNsvube2LQFC3K/FRz29OFpwW4braqeEHeXpDEwo3CIpP7tEf5zeUBRkiTjtWlGmPDahkoWaCIFhXeJDTVXtltUk8YzT1syuWXhltzgL77AaTp8yijmTWSjbTjy4gBUVgiKXvNYYuobm4LGGFXqrcJGkJMiRiuHdVfGARh1DMFe89z4074kcQeOiAJW0W3Cq5+06GsgDnOivGP0bcrxBaK47TA1ot9GMHqEgG7S5XIodOTD8RhG1ITz+GsebOy2QVSRQa8Pp8QPfBzkY54bOT4++WhNVQNF2+XKH0ZBrU46SIZKmWvECEHr7QTl+r6knVYbLcoq+X6HxsnGdhCqeU9xEl6xXzuOfI92K/xCurbHHzJIc5TasMQqWbqqhZ9M+75Fuzvr1Y+AUCp+2wwgIAf/qTkcplPyziC6lwLIHhNMcBAAAAAElFTkSuQmCC" x="12" y="7" width="50" height="26.5"/>
+              </svg>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="../index.html">&nbsp&nbsp首页&nbsp&nbsp</a></li>
+                <li class="active"><a href="#">&nbsp&nbsp撰写&nbsp&nbsp</a></li>
+                <li><a href="../history/history.html">&nbsp&nbsp上传&nbsp&nbsp</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&nbsp&nbsp关于&nbsp&nbsp<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://weibo.com/gakkinosmile">个人微博</a></li>
+                    <li class="dropdown-header">丨gakki-smile丨</li>
+                    <!--<li role="separator" class="divider"></li>-->
+                    <li><a href="../about/about.html">关于 遇见</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">---一个简单的个人小站---</a></li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+    </div>  
+
+  <div class="container">
+
+    <div class="right-docky">
+      <img class="user-image" src="../photo/logo.png">
+      <div class="user-name">Staroul</div>
+      <div class="user-article">文章<p>2</p></div>
+      <div class="user-access">访问<p>666</p></div>
+      <div class="user-people">人数<p>233</p></div>
+    </div>
+
+
+<div class="row">
+  <!--############ content_left ############-->
+  <div class="col-lg-9">
+
+    <div class="section well cf">
+
+      <div id="form-container-a794381c">
+        <form method="post" class="do-page-edit" action="/ccby/create/article">
+
+          <div class="row">
+            <div class="col-md-12">
+
+              <div class="btn-toolbar cf-toolbar" id="page-toolbar-a794381c" style="margin-bottom:4px;">
+                <div class="btn-group">
+                  <a class="btn btn-default" data-wysihtml5-command="bold" title="CTRL+B" target="_blank" unselectable="on"><i class="fa fa-bold"></i></a>
+                  <a class="btn btn-default" data-wysihtml5-command="italic" title="CTRL+I" target="_blank" unselectable="on"><i class="fa fa-italic"></i></a>
+                  <a class="btn btn-default" data-wysihtml5-command="underline" title="CTRL+U" target="_blank" unselectable="on"><i class="fa fa-underline"></i></a>
+                  <a class="btn btn-default" data-wysihtml5-command="strikethrough" target="_blank" unselectable="on"><i class="fa fa-strikethrough"></i></a>
+                </div>
+
+                <div class="btn-group">
+                  <a class="btn btn-default" data-wysihtml5-command="formatInline" data-wysihtml5-command-value="code" title="文字、代码片段 " target="_blank" unselectable="on"><code>片段</code></a>
+                    <div class="btn-group transit extra-part hideit" id="page-toolbar-a794381c-s-text"><!--text-->
+                      <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" target="_blank" unselectable="on">属性&nbsp;<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-text" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="text-muted" unselectable="on"><span class="text-muted">次要 / 弱化</span></a></li>
+                        <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-text" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="text-primary" unselectable="on"><span class="text-primary">首要 / 最佳</span></a></li>
+                        <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-text" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="text-info" unselectable="on"><span class="text-info">信息 / 数据</span></a></li>
+                        <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-text" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="text-warning" unselectable="on"><span class="text-warning">提醒 / 警告</span></a></li>
+                        <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-text" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="text-success" unselectable="on"><span class="text-success">成功 / 好结果</span></a></li>
+                        <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-text" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="text-danger" unselectable="on"><span class="text-danger">危险 / 坏结果</span></a></li>
+                        <li></li>
+                      </ul>
+                  </div>
+                  <div class="btn-group extra-part transit hideit" id="page-toolbar-a794381c-s-tag"><!--tag-->
+                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" target="_blank" unselectable="on">标签&nbsp;<span class="caret"></span></a>
+                    <ul class="dropdown-menu cf change-label" role="menu">
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-tag" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="label label-default" unselectable="on"><span class="label label-default">默认 / 普通</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-tag" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="label label-primary" unselectable="on"><span class="label label-primary">首要 / 最佳</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-tag" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="label label-info" unselectable="on"><span class="label label-info">信息 / 数据</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-tag" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="label label-warning" unselectable="on"><span class="label label-warning">提醒 / 警告</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-tag" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="label label-success" unselectable="on"><span class="label label-success">成功 / 好结果</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-tag" target="_blank" data-wysihtml5-command="myClass" data-wysihtml5-command-value="label label-danger" unselectable="on"><span class="label label-danger">危险 / 坏结果</span></a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-default toggle-extra-part" target="_blank"><i class="fa fa-caret-right"></i></a>
+                </div>
+
+                <div class="btn-group">
+                  <a class="btn btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="blockquote" title=" 引用 " target="_blank" unselectable="on"><i class="fa fa-quote-left"></i></a>
+                  <a class="btn btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="pre" title=" 代码块 " target="_blank" unselectable="on"><i class="fa fa-code"></i></a>
+                  <a class="btn btn-default" data-wysihtml5-command="insertUnorderedList" title=" 无序列表 " target="_blank" unselectable="on"><i class="fa fa-list"></i></a>
+                  <a class="btn btn-default" data-wysihtml5-command="insertOrderedList" title=" 有序列表 " target="_blank" unselectable="on"><i class="fa fa-list-ol"></i></a>
+                  <div class="btn-group tb-bg extra-part transit hideit" id="page-toolbar-a794381c-s-bg"><!--bg-->
+                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" target="_blank" unselectable="on">背景&nbsp;<span class="caret"></span></a>
+                    <ul class="dropdown-menu cf change-label" role="menu">
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-bg" target="_blank" data-wysihtml5-command="bgColor" data-wysihtml5-command-value="bg-primary" unselectable="on"><span class="bg-primary">首要 / 最佳</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-bg" target="_blank" data-wysihtml5-command="bgColor" data-wysihtml5-command-value="bg-info" unselectable="on"><span class="bg-info">信息 / 数据</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-bg" target="_blank" data-wysihtml5-command="bgColor" data-wysihtml5-command-value="bg-success" unselectable="on"><span class="bg-success">成功 / 好结果</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-bg" target="_blank" data-wysihtml5-command="bgColor" data-wysihtml5-command-value="bg-warning" unselectable="on"><span class="bg-warning">提醒 / 警告</span></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-bg" target="_blank" data-wysihtml5-command="bgColor" data-wysihtml5-command-value="bg-danger" unselectable="on"><span class="bg-danger">危险 / 坏结果</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group tb-alert extra-part transit hideit" id="page-toolbar-a794381c-s-alert"><!--alert-->
+                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" target="_blank" unselectable="on">突显&nbsp;<span class="caret"></span></a>
+                    <ul class="dropdown-menu cf change-label" role="menu">
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-alert" target="_blank" data-wysihtml5-command="myAlert" data-wysihtml5-command-value="info" unselectable="on"><p class="alert alert-info">信息 / 数据</p></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-alert" target="_blank" data-wysihtml5-command="myAlert" data-wysihtml5-command-value="success" unselectable="on"><p class="alert alert-success">成功 / 好结果</p></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-alert" target="_blank" data-wysihtml5-command="myAlert" data-wysihtml5-command-value="warning" unselectable="on"><p class="alert alert-warning">提醒 / 警告</p></a></li>
+                      <li><a href="javascript:void(0);" selector="#page-toolbar-a794381c-s-alert" target="_blank" data-wysihtml5-command="myAlert" data-wysihtml5-command-value="danger" unselectable="on"><p class="alert alert-danger">危险 / 坏结果</p></a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group extra-part result-wrap transit hideit">
+                    <a class="btn btn-default" data-wysihtml5-command="myResult" data-wysihtml5-command-value="thumbnail" title=" 运行结果 " target="_blank" unselectable="on"><i class="fa fa-terminal"></i></a>
+                  </div>
+                  <a class="btn btn-default toggle-extra-part" target="_blank"><i class="fa fa-caret-right"></i></a>
+                </div>
+
+
+                <div class="btn-group">
+
+
+                  <a id="page-toolbar-a794381cLBID" dialog="#page-toolbar-a794381cLMID" class="btn btn-default" href="javascript:void(0);" data-wysihtml5-command="createLink" title="链接" unselectable="on"><i class="fa fa-link"></i></a>
+
+                </div> <!-- btn-group-->
+
+
+
+
+                <script>
+                  if ( typeof jQuery != 'undefined' ) {
+                    $('#page-toolbar-a794381cLMID').appendTo('body');
+                  }
+                  else {
+                }
+                </script>
+
+                <script>
+                  $('#page-toolbar-a794381cLBID').attr('data-wysihtml5-command','createLink').attr('title','链接');
+                  $('#page-toolbar-a794381cLMID').attr('data-wysihtml5-dialog','createLink');
+                </script>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <textarea name="content" id="id-page-editor-a794381c" class="cfeditor" placeholder="&nbsp请输入内容----遇见"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+      <input type="button" onclick="sub()" id="sub" value="提交"/>
+      <script type="text/javascript">
+        function sub(){
+          alert($(".wysihtml5-sandbox.page-editor-a794381c").contents().find("html").html());
+        }
+      </script>
+    </div>
+  </div>
+  
+  <script>
+
+    var href = 'bootstrap/css/bootstrap-2014-10-23-e2373d4a.min.css'
+
+    var editor = new wysihtml5.Editor(
+        "id-page-editor-a794381c",{
+        name: "page-editor-a794381c",
+        style: true,
+        toolbar:  "page-toolbar-a794381c",
+        parserRules:  ToolBarRules,
+        useLineBreaks: false,
+       stylesheets: href
+    });    
+  </script>
+
+</div>
+<!--########## content_left_end ##########-->
+
+<div class="modal fade noautofocus" id="page-toolbar-a794381cLMID" tabindex="-1" role="dialog" aria-labelledby="page-toolbar-a794381cLMIDLabel" aria-hidden="true" style="display:none" data-wysihtml5-dialog="createLink">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+        <h3 class="modal-title" id="page-toolbar-a794381cLMIDLabel">链接</h3>
+
+      </div>
+      <div class="modal-body">
+
+        <input class="form-control" data-wysihtml5-dialog-field="href" value="http://">
+
+      </div>
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-wysihtml5-dialog-action="cancel">取消</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" data-wysihtml5-dialog-action="save">确定（Enter）</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+    
+    </div>
+
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $(".row").animate({opacity:"1.0"},800);
+        $(".right-docky").animate({opacity:"1.0"},800);
+      });
+  </script>
+
+  </body>
+</html>

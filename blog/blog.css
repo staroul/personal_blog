@@ -1,0 +1,258 @@
+body {
+  color: #5a5a5a;
+  background: #eee;
+  font-size: 18px;
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,
+  PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,
+  WenQuanYi Micro Hei,sans-serif;
+  padding-bottom: 10px;
+}
+
+.title{
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: -11px;
+}
+
+.navbar-wrapper{
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  margin-top: -150px;
+}
+
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 75px;
+}
+
+.blog-show{
+  display: block;
+  margin: 0px 15px 15px 15px;
+  background: #fff;
+  border-radius:10px;
+  box-shadow: 1px 1px 2px #888888;
+  overflow: hidden;
+  opacity:0;
+}
+
+.main-photo{
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-height:280px;
+  overflow: hidden;
+  border-radius:10px 10px 0 0;
+}
+
+.photo{
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-title{
+  display: block;
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  max-height: 43px;
+  color: #000;
+  padding: 5px 15px 5px 15px;
+  margin:-45px 40px 0 20px;
+  z-index: 10;
+  background: #eee;
+  border-radius: 5px;
+  opacity:0.8;
+  overflow: hidden;
+}
+
+.context{
+  border:1px 0 0 0;
+  border-top-style: solid;
+  border-color: #eee;
+  margin: 3px 30px;
+  padding: 8px 0 15px 0;
+  line-height: 29px;
+  overflow: hidden;
+  color: #000;
+}
+
+.right-docky{
+  display: none;
+}
+
+.user-image{
+  display: none;
+  padding: 18px;
+  height: 100%;
+  width: 100%;
+  border-radius: 70%;
+  margin:0;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: border-box;
+}
+
+.user-name{
+  display: none;
+  font-size: 23px;
+  text-align: center;
+  color: #000;
+  padding:5px 5px; 
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #eee;
+  margin: 0 10px;
+}
+
+.user-article{
+  display: none;
+  float: left;
+  padding:15px 35px 0 35px;
+}
+
+.user-article p{
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid #eee 1px;
+}
+
+.user-access{
+  display: none;
+  float: left;
+  padding:15px 35px 0 0;
+}
+
+.user-access p{
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid #eee 1px;
+}
+
+.user-people{
+  display: none;
+  float: left;
+  padding:15px 0 0 0;
+}
+
+.user-people p{
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid #eee 1px;
+}
+
+@media (min-width: 768px) {
+  /*article*/
+  .blog-show{
+    display: block;
+    border-radius: 2px;
+    height: auto;
+    margin: 0px 15px 10px 0px;
+    width: 750px;
+  }
+  .main-photo{
+    max-width: 750px;
+    height: auto;
+    overflow: hidden;
+    margin:10px 20px 10px 10px;
+    border: solid 1px #eee;
+    border-radius:10px 10px 10px 10px;
+  }
+
+  .main-title{
+    font-weight: bold;
+    margin-top: -65px;
+    font-size: 28px;
+    max-height: 48px;
+  }
+
+  .context{
+    font-size: 18px;
+  }
+
+  /*docky*/
+}
+
+@media (min-width: 992px) {
+  .navbar-header{
+    padding-left: 65px;
+  }
+
+  /*article*/
+  .blog-show{
+    display: block;
+    height: auto;
+    margin: -10px 15px 20px 60px;
+    width: 780px;
+  }
+  .main-photo{
+    max-width: 750px;
+    height: auto;
+    overflow: hidden;
+    margin:10px 20px 10px 10px;
+    border: solid 1px #eee;
+    border-radius:10px 10px 10px 10px;
+  }
+
+  .main-title{
+    font-weight: bold;
+    margin-top: -65px;
+    font-size: 28px;
+    max-height: 48px;
+  }
+
+  .context{
+    font-size: 19px;
+    line-height: 35px;
+  }
+
+    /*docky*/
+  .right-docky{
+    display: block;
+    position: fixed;
+    float: right;
+    width: 250px;
+    margin-left: 850px;
+    margin-top:-10px;
+    background:#fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #888888;
+    opacity:0;
+  }
+
+  .user-image{
+    display: block;
+  }
+
+  .user-name{
+    display: block;
+  }
+
+  .user-article{
+    display: block;
+  }
+
+  .user-access{
+    display: block;
+  }
+
+  .user-people{
+    display: block;
+  }
+}
+
